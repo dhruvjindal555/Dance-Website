@@ -1,0 +1,41 @@
+extends base.pug 
+block scripts 
+    script(src="index.js")
+block style 
+    style 
+        include ../static/style.css
+block content 
+    section#pictureSection 
+        div Welcome to Our Dance Academy 
+        div Eat Sleep Dance Repeat 
+
+
+    section#missionSection 
+        h2 Our Mission 
+        div.container
+            div.card 
+                h3 Dance the way you like 
+                div.card-box
+                    div.card-img
+                        <img src="https://www.seekpng.com/png/detail/43-437103_dancer-silhouette-transparent-background.png" alt="Dancer Silhouette Transparent Background@seekpng.com">
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam.
+            div.card 
+                h3 Expert teaching 
+                div.card-box
+                    div.card-img
+                        <img src="https://www.seekpng.com/png/detail/43-437103_dancer-silhouette-transparent-background.png" alt="Dancer Silhouette Transparent Background@seekpng.com">
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam.
+            div.card 
+                h3 Dance Daily
+                div.card-box
+                    div.card-img
+                        <img src="https://www.seekpng.com/png/detail/43-437103_dancer-silhouette-transparent-background.png" alt="Dancer Silhouette Transparent Background@seekpng.com">
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam.
+    section#sponsorSection 
+        h2 Our Sponsors 
+        div#sponsors
+            img( src="https://www.seekpng.com/png/detail/43-437103_dancer-silhouette-transparent-background.png" class="spImage"  )
+            img( src="https://www.seekpng.com/png/detail/43-437103_dancer-silhouette-transparent-background.png" class="spImage" )
